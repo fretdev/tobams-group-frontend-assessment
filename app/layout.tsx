@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
+import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
+
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  variable: "--font-nunito-sans",
+});
 
 export const metadata: Metadata = {
   title: "Tobams Group Frontend Assessment",
@@ -13,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={nunitoSans.variable}>{children}</body>
     </html>
   );
 }

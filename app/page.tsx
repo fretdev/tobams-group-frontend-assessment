@@ -1,7 +1,12 @@
+import Navbar from "@/components/Navbar/Navbar";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Tobams Group Frontend Assessment</h1>
-    </main>
+    <>
+      <Navbar />
+
+      <main>
+      </main>
+    </>
   );
 }
