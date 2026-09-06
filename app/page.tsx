@@ -6,6 +6,7 @@ import Training from "@/components/Training Section/Training";
 import Learning from "@/components/Learning Section/Learning";
 import Consultant from "@/components/Consultant Section/Consultant";
 import Booking from "@/components/Booking Section/Booking";
+import Testimonials from "@/components/Testimonials Section/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Learning />
         <Consultant />
         <Booking />
+        <Testimonials />
       </main>
     </>
   );

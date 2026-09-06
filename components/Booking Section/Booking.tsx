@@ -1,6 +1,6 @@
 export default function Booking() {
   return (
-    <section className="w-full bg-white px-4 py-8 md:px-16 md:py-16">
+    <section className="w-full bg-[#F9F9F9] px-4 pt-8 pb-4 md:px-16 md:pt-12 md:pb-6">
       <div
         className="
           mx-auto flex w-full max-w-[1134px] flex-col items-center justify-center
@@ -12,7 +12,7 @@ export default function Booking() {
         <div className="flex w-full max-w-[1006px] items-center justify-center text-center">
           <p
             className="
-              font-['Nunito'] text-[16px] md:text-[20px] font-semibold not-italic
+              text-[16px] md:text-[20px] font-semibold not-italic
               leading-[150%] tracking-[0.03em] text-white text-center
             "
           >
@@ -31,7 +31,7 @@ export default function Booking() {
           className="
             flex w-[214px] h-[48px] items-center justify-center
             rounded-[8px] bg-white gap-[32px] opacity-100
-            font-['Nunito'] text-[16px] font-semibold text-[#571244]
+            text-[16px] font-semibold text-[#571244]
             transition-colors hover:bg-gray-100
           "
         >
