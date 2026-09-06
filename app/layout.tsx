@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
-import { Nunito_Sans } from "next/font/google";
+import { Nunito, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
 const nunitoSans = Nunito_Sans({
   subsets: ["latin"],
   variable: "--font-nunito-sans",
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+  weight: ["600"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunitoSans.variable}>{children}</body>
+      <body className={`${nunitoSans.variable} ${nunito.variable}`}>{children}</body>
     </html>
   );
 }
