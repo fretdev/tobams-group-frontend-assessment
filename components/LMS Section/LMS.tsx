@@ -7,7 +7,6 @@ const allCourses = [...coursesCol1, ...coursesCol2];
 export default function LMS() {
   return (
     <section className="w-full bg-[#5712441A] py-6 lg:bg-white lg:py-10">
-      {/* Full-width pink band — spans edge-to-edge on desktop */}
       <div className="w-full px-6 lg:bg-[#5712441A] lg:px-0">
         <div
           className="
@@ -19,7 +18,6 @@ export default function LMS() {
             lg:px-16 lg:py-[58px]
           "
         >
-          {/* Mobile/Tablet H2 */}
           <h2
             className="
               w-full text-center text-xl font-semibold leading-[150%]
@@ -33,7 +31,6 @@ export default function LMS() {
             Learning Management System
           </h2>
 
-          {/* Image */}
           <div
             className="
               relative aspect-square w-full overflow-hidden
@@ -54,7 +51,6 @@ export default function LMS() {
             />
           </div>
 
-          {/* Text Content */}
           <div
             className="
               flex min-w-0 flex-1 flex-col gap-6
@@ -62,7 +58,6 @@ export default function LMS() {
               lg:gap-14
             "
           >
-            {/* Desktop H2 */}
             <h2
               className="
                 hidden whitespace-nowrap text-[2.5rem] font-semibold leading-[150%]
@@ -74,7 +69,6 @@ export default function LMS() {
               Learning Management System
             </h2>
 
-            {/* Content Card */}
             <div
               className="
                 flex flex-col gap-6 rounded-lg bg-[#5712441A] p-6
@@ -82,7 +76,6 @@ export default function LMS() {
                 lg:gap-5
               "
             >
-              {/* Paragraph */}
               <p
                 className="
                   text-base font-normal leading-[150%] text-[#151515]
@@ -101,7 +94,6 @@ export default function LMS() {
                 landscape.
               </p>
 
-              {/* Courses Section */}
               <div className="flex flex-col gap-3">
                 <p
                   className="
@@ -113,7 +105,6 @@ export default function LMS() {
                   Some of our courses include:
                 </p>
 
-                {/* Mobile course list (single column) */}
                 <ul className="flex list-disc flex-col gap-3 pl-5 lg:hidden">
                   {allCourses.map((course) => (
                     <li
@@ -125,7 +116,6 @@ export default function LMS() {
                   ))}
                 </ul>
 
-                {/* Desktop course list (two rows of three) */}
                 <div className="hidden flex-col gap-3 lg:flex">
                   <ul className="flex list-disc flex-wrap gap-x-8 pl-5">
                     {coursesCol1.map((course) => (
@@ -151,7 +141,6 @@ export default function LMS() {
               </div>
             </div>
 
-            {/* Learn More Button */}
             <button
               type="button"
               className="

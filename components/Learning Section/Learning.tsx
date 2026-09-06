@@ -19,17 +19,14 @@ const Learning = () => {
           md:gap-10 md:rounded-2xl md:p-10
         "
       >
-        {/* Label */}
         <p className="text-sm font-semibold italic leading-[130%] text-[#1671D9] md:text-xl">
           Learning With Our CEO:
         </p>
 
-        {/* Heading */}
         <h3 className="text-xl font-semibold italic leading-[130%] text-[#571244] md:text-[32px]">
           Transformation Hub With Jite Newton
         </h3>
 
-        {/* Description */}
         <p className="text-sm font-normal leading-[150%] text-[#151515] md:text-lg">
           Transformation Hub with Jite Newton is a flagship webinar series
           curated by the CEO, Dr. Jite Newton. Designed to elevate career
@@ -41,14 +38,12 @@ const Learning = () => {
           drive success in your endeavours.
         </p>
 
-        {/* IMAGE + LEARNING CONTENT */}
         <div
           className="
             flex w-full flex-col gap-8
             lg:flex-row lg:items-start lg:gap-8
           "
         >
-          {/* IMAGE */}
           <div
             className="
               relative h-[232px] w-full shrink-0 overflow-hidden rounded-lg
@@ -65,7 +60,6 @@ const Learning = () => {
             />
           </div>
 
-          {/* RIGHT CONTENT */}
           <div
             className="
               flex flex-1 flex-col items-center gap-6
@@ -74,9 +68,7 @@ const Learning = () => {
               lg:items-start lg:py-4
             "
           >
-            {/* Container to align 255px boxes and button on mobile */}
             <div className="flex w-[255px] flex-col items-start gap-6 sm:w-full">
-              {/* LEARNING BOXES */}
               <div
                 className="
                   grid w-full grid-cols-1 gap-3
@@ -89,7 +81,6 @@ const Learning = () => {
                 ))}
               </div>
 
-              {/* BUTTON */}
               <button
                 type="button"
                 className="
@@ -145,14 +136,12 @@ const LearningBox = ({ text }: LearningBoxProps) => {
         sm:w-full lg:h-[60px]
       "
     >
-      {/* Bolt icon */}
       <img
         src="/icon/bolt.png"
         alt=""
         className="h-[21px] w-[16px] shrink-0"
       />
 
-      {/* Text */}
       <span className="min-w-0 whitespace-nowrap text-sm font-normal leading-[150%] text-[#151515]">
         {text}
       </span>

@@ -4,6 +4,8 @@ import LMS from "@/components/LMS Section/LMS"
 import Management from "@/components/Management Section/Management";
 import Training from "@/components/Training Section/Training";
 import Learning from "@/components/Learning Section/Learning";
+import Consultant from "@/components/Consultant Section/Consultant";
+import Booking from "@/components/Booking Section/Booking";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <Training />
         <Management />
         <Learning />
+        <Consultant />
+        <Booking />
       </main>
     </>
   );
