@@ -137,7 +137,7 @@ const LearningBox = ({ text }: LearningBoxProps) => {
       "
     >
       <img
-        src="/icon/bolt.png"
+        src="/icon/section icons/bolt.png"
         alt=""
         className="h-[21px] w-[16px] shrink-0"
       />

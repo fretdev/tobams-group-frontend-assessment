@@ -32,7 +32,7 @@ export default function TopNav() {
         "
       >
         <Image
-          src="/images/logo.svg"
+          src="/images/Navbar images/logo.svg"
           alt="Tobams Group logo"
           width={124}
           height={42}
@@ -61,7 +61,7 @@ export default function TopNav() {
           "
         >
           <Image
-            src="/images/hamburger.svg"
+            src="/images/Navbar images/hamburger.svg"
             alt=""
             width={27}
             height={27}
@@ -119,7 +119,7 @@ export default function TopNav() {
                 "
               >
                 <Image
-                  src="/images/user-icon.svg"
+                  src="/images/Navbar images/user-icon.svg"
                   alt=""
                   width={12}
                   height={18}
@@ -388,7 +388,7 @@ export default function TopNav() {
               >
                 <span className="relative flex h-6 w-6 items-center justify-center">
                   <Image
-                    src="/images/user-icon.svg"
+                    src="/images/Navbar images/user-icon.svg"
                     alt=""
                     width={12}
                     height={18}
