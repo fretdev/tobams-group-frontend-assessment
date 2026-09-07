@@ -1,3 +1,4 @@
+import Image from "next/image";
 import HeroContent from "./HeroContent";
 
 export default function Hero() {
@@ -10,9 +11,7 @@ export default function Hero() {
         w-full
         items-center
         justify-center
-        bg-cover
-        bg-center
-        bg-no-repeat
+        overflow-hidden
         px-6
         py-10
 
@@ -25,10 +24,16 @@ export default function Hero() {
         lg:px-16
         lg:py-28
       "
-      style={{
-        backgroundImage: "url('/images/hero image folder/hero image.jpg')",
-      }}
     >
+      <Image
+        src="/images/hero image folder/hero image.jpg"
+        alt="Hero background"
+        fill
+        priority
+        className="object-cover"
+        sizes="100vw"
+      />
+
       <div className="absolute inset-0 bg-[#000000B2]" />
 
       <div className="relative z-10 flex w-full justify-center">

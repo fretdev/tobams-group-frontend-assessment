@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const learningItems = [
   "Strategic Career Guidance",
   "Leadership Development",
@@ -53,10 +55,12 @@ const Learning = () => {
               lg:h-[340px] lg:w-[46%] lg:max-w-[560px] xl:w-[560px]
             "
           >
-            <img
+            <Image
               src="/images/Learnin section image/learning-section-image.jpg"
               alt="Learning with our CEO"
-              className="h-full w-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1023px) 100vw, 560px"
             />
           </div>
 
@@ -136,10 +140,12 @@ const LearningBox = ({ text }: LearningBoxProps) => {
         sm:w-full lg:h-[60px]
       "
     >
-      <img
+      <Image
         src="/icon/section icons/bolt.png"
         alt=""
-        className="h-[21px] w-[16px] shrink-0"
+        width={16}
+        height={21}
+        className="h-[21px] w-[16px] shrink-0 object-contain"
       />
 
       <span className="min-w-0 whitespace-nowrap text-sm font-normal leading-[150%] text-[#151515]">

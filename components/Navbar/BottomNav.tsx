@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function BottomNav() {
   return (
@@ -41,123 +41,146 @@ export default function BottomNav() {
             pb-[0.125rem]
           "
         >
-          <span
+          <Link
+            href="#"
             className="
+              flex items-center gap-1
               whitespace-nowrap
               text-[0.7rem]
               font-semibold
               leading-[150%]
               text-[#571244]
+              focus:outline-none focus:ring-1 focus:ring-[#571244] rounded
 
               md:text-[0.8rem]
               lg:text-[1.125rem]
             "
           >
-            About
-          </span>
+            <span>About</span>
+            <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
+              <span
+                className="
+                  h-1.5 w-1.5 rotate-45
+                  border-b-[1.5px]
+                  border-r-[1.5px]
+                  border-[#571244]
 
-          <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
-            <span
-              className="
-                h-1.5 w-1.5 rotate-45
-                border-b-[1.5px]
-                border-r-[1.5px]
-                border-[#571244]
-
-                lg:h-2 lg:w-2
-              "
-            />
-          </span>
+                  lg:h-2 lg:w-2
+                "
+              />
+            </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center">
-          <span
+          <Link
+            href="#"
             className="
+              flex items-center gap-1
               whitespace-nowrap
               text-[0.7rem]
               font-normal
               leading-[150%]
               text-[#151515]
+              hover:text-[#571244]
+              focus:outline-none focus:ring-1 focus:ring-[#571244] rounded
 
               md:text-[0.8rem]
               lg:text-[1.125rem]
             "
           >
-            What We Do
-          </span>
+            <span>What We Do</span>
+            <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
+              <span
+                className="
+                  h-1.5 w-1.5 rotate-45
+                  border-b-[1.5px]
+                  border-r-[1.5px]
+                  border-[#571244]
 
-          <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
-            <span
-              className="
-                h-1.5 w-1.5 rotate-45
-                border-b-[1.5px]
-                border-r-[1.5px]
-                border-[#571244]
-
-                lg:h-2 lg:w-2
-              "
-            />
-          </span>
+                  lg:h-2 lg:w-2
+                "
+              />
+            </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center gap-2">
-          <span
+          <Link
+            href="#"
             className="
+              flex items-center gap-1
               whitespace-nowrap
               text-[0.7rem]
               font-normal
               leading-[150%]
               text-[#151515]
+              hover:text-[#571244]
+              focus:outline-none focus:ring-1 focus:ring-[#571244] rounded
 
               md:text-[0.8rem]
               lg:text-[1.125rem]
             "
           >
-            Jobs
-          </span>
+            <span>Jobs</span>
+            <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
+              <span
+                className="
+                  h-1.5 w-1.5 rotate-45
+                  border-b-[1.5px]
+                  border-r-[1.5px]
+                  border-[#571244]
 
-          <span className="flex h-4 w-4 shrink-0 items-center justify-center lg:h-5 lg:w-5">
-            <span
-              className="
-                h-1.5 w-1.5 rotate-45
-                border-b-[1.5px]
-                border-r-[1.5px]
-                border-[#571244]
-
-                lg:h-2 lg:w-2
-              "
-            />
-          </span>
+                  lg:h-2 lg:w-2
+                "
+              />
+            </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center justify-center">
-          <span className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] md:text-[0.8rem] lg:text-[1.125rem]">
+          <Link
+            href="#"
+            className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] hover:text-[#571244] focus:outline-none focus:ring-1 focus:ring-[#571244] rounded md:text-[0.8rem] lg:text-[1.125rem]"
+          >
             Projects
-          </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center justify-center">
-          <span className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] md:text-[0.8rem] lg:text-[1.125rem]">
+          <Link
+            href="#"
+            className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] hover:text-[#571244] focus:outline-none focus:ring-1 focus:ring-[#571244] rounded md:text-[0.8rem] lg:text-[1.125rem]"
+          >
             TG Academy
-          </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center justify-center">
-          <span className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] md:text-[0.8rem] lg:text-[1.125rem]">
+          <Link
+            href="#"
+            className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] hover:text-[#571244] focus:outline-none focus:ring-1 focus:ring-[#571244] rounded md:text-[0.8rem] lg:text-[1.125rem]"
+          >
             Strategic Partnership
-          </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center justify-center">
-          <span className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] md:text-[0.8rem] lg:text-[1.125rem]">
+          <Link
+            href="#"
+            className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] hover:text-[#571244] focus:outline-none focus:ring-1 focus:ring-[#571244] rounded md:text-[0.8rem] lg:text-[1.125rem]"
+          >
             Pricing
-          </span>
+          </Link>
         </li>
 
         <li className="flex shrink-0 items-center justify-center">
-          <span className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] md:text-[0.8rem] lg:text-[1.125rem]">
+          <Link
+            href="#"
+            className="whitespace-nowrap text-[0.7rem] font-normal leading-[150%] text-[#151515] hover:text-[#571244] focus:outline-none focus:ring-1 focus:ring-[#571244] rounded md:text-[0.8rem] lg:text-[1.125rem]"
+          >
             Book a consultation
-          </span>
+          </Link>
         </li>
       </ul>
     </nav>

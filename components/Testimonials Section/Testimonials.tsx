@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useRef } from "react";
+import Image from "next/image";
 
 const testimonialsData = [
   {
@@ -80,10 +81,12 @@ export default function Testimonials() {
               className="box-border flex w-[327px] h-[226px] lg:w-[356px] xl:w-[364px] shrink-0 flex-col justify-start gap-3.5 rounded-[16px] bg-white p-5 md:p-6 shadow-sm border border-[#E5E7EB] border-l-4 border-l-[#EF4353]"
             >
               <div className="flex items-center gap-3">
-                <div className="h-10 w-10 md:h-11 md:w-11 shrink-0 overflow-hidden rounded-full bg-gray-100">
-                  <img
+                <div className="h-10 w-10 md:h-11 md:w-11 shrink-0 overflow-hidden rounded-full bg-gray-100 relative">
+                  <Image
                     src={item.image}
                     alt={item.name}
+                    width={44}
+                    height={44}
                     className="h-full w-full object-cover rounded-full"
                   />
                 </div>
