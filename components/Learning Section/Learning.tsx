@@ -50,7 +50,7 @@ const Learning = () => {
 
               md:h-[300px]
 
-              lg:h-[340px] lg:w-[560px]
+              lg:h-[340px] lg:w-[46%] lg:max-w-[560px] xl:w-[560px]
             "
           >
             <img

@@ -69,7 +69,7 @@ function TrainingImage({
   alt: string;
 }) {
   return (
-    <div className="relative aspect-[604/347] w-full overflow-hidden rounded-[16px] lg:h-[347px] lg:w-[604px]">
+    <div className="relative aspect-[604/347] w-full overflow-hidden rounded-[16px] lg:h-[347px] lg:w-full lg:max-w-[604px]">
       <Image
         src={src}
         alt={alt}
@@ -86,7 +86,7 @@ export default function Training() {
     <section className="w-full bg-white px-6 py-12 md:px-10 md:py-16 lg:px-16 lg:py-24">
       <div className="mx-auto flex w-full max-w-[1312px] flex-col gap-20 md:gap-24 lg:gap-[120px]">
         
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_604px] lg:items-center lg:gap-x-[80px] lg:gap-y-3">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-x-10 xl:grid-cols-[1fr_604px] xl:gap-x-[80px] lg:items-center lg:gap-y-3">
           <h2 className="text-[28px] font-normal leading-[130%] tracking-[0.02em] text-[#151515] lg:col-start-1 lg:row-start-1 lg:text-[40px]">
             Corporate Trainings
           </h2>
@@ -107,7 +107,7 @@ export default function Training() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-[604px_1fr] lg:items-center lg:gap-x-[80px] lg:gap-y-3">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-x-10 xl:grid-cols-[604px_1fr] xl:gap-x-[80px] lg:items-center lg:gap-y-3">
           <h2 className="text-[28px] font-normal leading-[130%] tracking-[0.02em] text-[#151515] lg:col-start-2 lg:row-start-1 lg:text-[40px]">
             Personalised Individual Training
           </h2>
@@ -128,7 +128,7 @@ export default function Training() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_604px] lg:items-center lg:gap-x-[80px] lg:gap-y-3">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-x-10 xl:grid-cols-[1fr_604px] xl:gap-x-[80px] lg:items-center lg:gap-y-3">
           <h2 className="text-[28px] font-normal leading-[130%] tracking-[0.02em] text-[#151515] lg:col-start-1 lg:row-start-1 lg:text-[40px]">
             Capacity Development
           </h2>

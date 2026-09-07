@@ -14,7 +14,7 @@ export default function LMS() {
 
             md:max-w-[700px]
 
-            lg:max-w-[1312px] lg:flex-row lg:items-center lg:gap-20
+            lg:max-w-[1312px] lg:flex-row lg:items-center lg:gap-10 xl:gap-20
             lg:px-16 lg:py-[58px]
           "
         >
@@ -55,15 +55,15 @@ export default function LMS() {
             className="
               flex min-w-0 flex-1 flex-col gap-6
 
-              lg:gap-14
+              lg:gap-10 xl:gap-14
             "
           >
             <h2
               className="
-                hidden whitespace-nowrap text-[2.5rem] font-semibold leading-[150%]
+                hidden whitespace-nowrap text-[1.875rem] font-semibold leading-[150%]
                 tracking-[0.03em] text-[#571244]
 
-                lg:block
+                lg:block xl:text-[2.5rem]
               "
             >
               Learning Management System
